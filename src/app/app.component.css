@@ -1,0 +1,26 @@
+/* AppComponent's private CSS styles */
+h1 {
+    margin-bottom: 0;
+  }
+  nav a {
+    padding: 10px 20px; /* Aumentar el espacio interno para hacer los botones un poco más grandes */
+    text-decoration: none;
+    display: inline-block;
+    background-color: #2e7d32; /* Verde oscuro */
+    color: #e9d6d6; /* Blanco */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #138f17; /* Cambiar el color al pasar el cursor sobre el botón */
+  }
+  
+  nav a:hover {
+    color: white;
+    background-color: #033b07;
+  }
+  nav a:active {
+    background-color: rgb(17, 87, 8);
+  }
